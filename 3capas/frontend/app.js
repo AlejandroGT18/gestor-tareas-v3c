@@ -43,9 +43,9 @@ async function register() {
 
     alert("Registro exitoso");
   } catch (error) {
-    alert("Error: " + error.message);
-  }
-}
+    console.log(error);
+  };
+};
 
 async function login() {
   const username = document.getElementById("username").value;

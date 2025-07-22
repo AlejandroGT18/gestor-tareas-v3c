@@ -11,6 +11,18 @@
     {
       "username": "facutapia",
       "password": "hola"
+    },
+    {
+      "username": "Alejandro",
+      "password": "1234"
+    },
+    {
+      "username": "AleGT",
+      "password": "12345"
+    },
+    {
+      "username": "Luciano",
+      "password": "12345"
     }
   ],
   "tasks": [
@@ -90,6 +102,15 @@
       "completed": false,
       "createdAt": "2025-07-19T22:19:48.642Z",
       "updatedAt": "2025-07-19T22:20:00.505Z"
+    },
+    {
+      "id": 1753145705839,
+      "text": "hoal",
+      "datetime": "2025-07-21T21:55",
+      "user": "Alejandro",
+      "categoria": "asdad",
+      "completed": false,
+      "createdAt": "2025-07-22T00:55:05.839Z"
     }
   ]
 }
