@@ -12,7 +12,7 @@ describe('template spec', () => {
 
     // Creacion de la Nueva Tarea
     cy.get('[data-cy="nueva-tarea"]').type("Nueva tarea agrego..");
-    cy.get('[data-cy="fecha"]').type("10-05-2025");
+    cy.get('[data-cy="fecha"]').type("2017-06-01T08:30");
     cy.get('[data-cy="nueva-categoria"]').type("Nueva cat..");
     cy.get('[data-cy="btn-agregar"]').click();
   })
