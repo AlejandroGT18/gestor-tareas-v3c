@@ -69,7 +69,7 @@ async function login() {
     document.getElementById("taskSection").style.display = "block";
     document.getElementById("logoutButton").style.display = "inline-block";
     await loadTasks();
-    alert("Inicio de sesión exitoso");
+    // alert("Inicio de sesión exitoso");
   } catch (error) {
     alert("Error: " + error.message);
   }

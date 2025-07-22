@@ -18,6 +18,7 @@
             id="username"
             placeholder="Usuario"
             class="input-field"
+            data-cy="usuario"
           />
         </div>
         <div class="form-group">
@@ -26,13 +27,14 @@
             id="password"
             placeholder="Contraseña"
             class="input-field"
+            data-cy="contraseña"
           />
         </div>
         <div class="button-group">
-          <button onclick="register()" class="btn btn-register">
+          <button onclick="register()" class="btn btn-register" data-cy="btn-submit">
             Registrarse
           </button>
-          <button onclick="login()" class="btn btn-login">
+          <button onclick="login()" class="btn btn-login" data-cy="btn-login">
             Iniciar Sesión
           </button>
         </div>
@@ -46,26 +48,41 @@
           </button>
         </div>
         <div class="task-input-section">
-          <input
-            type="text"
-            id="newTask"
-            placeholder="Nueva tarea"
-            class="input-field"
-          />
-          <input type="datetime-local" id="taskDateTime" class="input-field" />
-          <select
-            id="categoriaSelect"
-            class="input-field"
-            style="max-width: 180px"
-          ></select>
-          <input
-            type="text"
-            id="newCategoria"
-            placeholder="Nueva categoría"
-            class="input-field"
-            style="max-width: 180px"
-          />
-          <button onclick="addTask()" class="btn btn-add">Agregar</button>
+          <div>
+            <label for="newTask">Nueva Tarea:</label>
+            <input
+              type="text"
+              id="newTask"
+              placeholder="Nueva tarea"
+              class="input-field"
+              data-cy="nueva-tarea"
+            />
+          </div>
+          <div>
+            <label for="taskDateTime">Fecha:</label>
+            <input data-cy="fecha" type="datetime-local" id="taskDateTime" class="input-field" />
+          </div>
+          <div>
+            <label for="categoriaSelect">Categoria:</label>
+            <select
+              id="categoriaSelect"
+              class="input-field"
+              style="max-width: 180px"
+              data-cy="categoria"
+            ></select>
+          </div>
+          <div>
+            <label for="newCategoria">Nueva Categoria:</label>
+            <input
+              type="text"
+              id="newCategoria"
+              placeholder="Nueva categoría"
+              class="input-field"
+              style="max-width: 180px"
+              data-cy="nueva-categoria"
+            />
+          </div>
+          <button onclick="addTask()" class="btn btn-add" data-cy="btn-agregar">Agregar</button>
         </div>
         <div class="filter-section">
           <label for="filtroCategoria">Filtrar por categoría:</label>
