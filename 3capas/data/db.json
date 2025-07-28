@@ -80,16 +80,6 @@
       "completed": false,
       "createdAt": "2025-06-29T22:45:52.247Z",
       "updatedAt": "2025-06-30T19:08:53.362Z"
-    },
-    {
-      "id": 1752963588641,
-      "text": "Estudiar",
-      "datetime": "2025-07-19T19:20",
-      "user": "facutapia",
-      "categoria": "IMPORTANTE",
-      "completed": false,
-      "createdAt": "2025-07-19T22:19:48.642Z",
-      "updatedAt": "2025-07-19T22:20:00.505Z"
     }
   ]
 }
